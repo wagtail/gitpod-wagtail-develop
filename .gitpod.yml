@@ -3,8 +3,15 @@ ports:
   onOpen: open-preview
 tasks:
 - init: >
-    python -m pip install wagtail &&
-    wagtail start mysite . &&
+    git clone https://github.com/wagtail/wagtail.git &&
+    cd wagtail &&
+    pip install -e '.[testing,docs]' -U &&
+    npm install --no-save &&
+    npm run build &&
+    cd .. &&
+    git clone git@github.com:wagtail/bakerydemo.git &&
+    cd bakerydemo &&
+    sed -i 's/wagtail>=/# wagtail>=/g' requirements/base.txt &&
     python -m pip install -r requirements.txt &&
     python manage.py migrate &&
     echo "from django.contrib.auth import get_user_model; get_user_model().objects.create_superuser('admin', '', 'changeme')" | python3 manage.py shell
