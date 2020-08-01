@@ -1,3 +1,5 @@
+image:
+  file: .gitpod.dockerfile
 ports:
 - port: 8080
   onOpen: open-preview
@@ -9,12 +11,13 @@ tasks:
     npm install --no-save &&
     npm run build &&
     cd .. &&
-    git clone git@github.com:wagtail/bakerydemo.git &&
+    git clone https://github.com/wagtail/bakerydemo.git &&
     cd bakerydemo &&
     sed -i 's/wagtail>=/# wagtail>=/g' requirements/base.txt &&
     python -m pip install -r requirements.txt &&
+    python manage.py makemigrations &&
     python manage.py migrate &&
-    echo "from django.contrib.auth import get_user_model; get_user_model().objects.create_superuser('admin', '', 'changeme')" | python3 manage.py shell
+    python manage.py load_initial_data &&
   command: >
     python manage.py runserver 0.0.0.0:8080
 github:
