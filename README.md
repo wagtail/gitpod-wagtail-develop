@@ -2,7 +2,7 @@
 
 Develop Wagtail CMS via Gitpod.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/allcaps/gitpod-wagtail-develop)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/wagtail/gitpod-wagtail-develop)
 
 Use [wagtail-gitpod](https://github.com/wagtail/wagtail-gitpod) to develop a Wagtail website.
 
