@@ -5,7 +5,6 @@ ports:
   onOpen: open-preview
 tasks:
 - init: >
-    python -c "from urllib.request import urlopen; urlopen('https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2Fwagtail%2Fgitpod-wagtail-develop')" &&
     git clone https://github.com/wagtail/wagtail.git &&
     cd wagtail &&
     pip install -e '.[testing,docs]' -U &&
