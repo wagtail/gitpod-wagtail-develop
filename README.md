@@ -55,5 +55,4 @@ In Gitpod, in the menu choose `Terminal` and `New Terminal`.
 
 Open the link and follow the instructions.
 
----
-[Hits](https://hitcounter.pythonanywhere.com/nocount/tag.svg?url=https%3A%2F%2Fgithub.com%2Fwagtail%2Fgitpod-wagtail-develop)
+![Gitpod Wagtail Develop hit counter](https://hitcounter.pythonanywhere.com/nocount/tag.svg?url=https%3A%2F%2Fgithub.com%2Fwagtail%2Fgitpod-wagtail-develop)
