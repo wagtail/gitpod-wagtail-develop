@@ -19,7 +19,8 @@ tasks:
     python -m pip install -r requirements.txt &&
     python manage.py makemigrations &&
     python manage.py migrate &&
-    python manage.py load_initial_data
+    python manage.py load_initial_data &&
+    echo "CSRF_TRUSTED_ORIGINS = ['https://*.gitpod.io']" >> bakerydemo/settings/local.py
   command: >
     python manage.py runserver 0.0.0.0:8080
 github:
