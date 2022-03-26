@@ -30,9 +30,11 @@ The URL will be https://github.com/USERNAME/wagtail
 
 1. Go to https://github.com/settings/tokens 
 2. Click 'Generate new token'
-3. Select 'repo' 
-4. Click 'Generate token'
-5. Copy the token
+3. Give the token a 'Note' ('Wagtail GitPod' is a good one)
+4. If you plan to use this GitPod for more than a month, be sure to choose a longer expiration for the token
+5. Tick the checkbox next to 'repo' 
+6. Click 'Generate token'
+7. Copy the token
 
 ### Add remote
 
