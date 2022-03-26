@@ -56,3 +56,9 @@ In Gitpod, in the menu choose `Terminal` and `New Terminal`.
     # remote: https://github.com/USERNAME/wagtail/pull/new/BRANCH_NAME
 
 Open the link and follow the instructions.
+
+## Stop and continue
+
+The Gitpod workspace will stop after 30 minutes of inactivity.
+If your workspace has stopped, reload the browser or go to [your workspaces](https://gitpod.io/workspaces) and restart the workspace.
+Gitpod automatically removes workspaces that are inactive for 14 days.
