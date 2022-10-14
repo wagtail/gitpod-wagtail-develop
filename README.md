@@ -74,7 +74,7 @@ Wait for some seconds and viola, the storybook will be opened for you.
 
 The Wagtail Cms can be accessed through the wagtail bakery on gitpod. This is to introduce you to developing in wagtail and also allows you to explore the admin/ editorial interface on Wagtail.
 
-To access it, after the Wagtail bakery is live, expand it by clicking on the square box or you click on `open browser` in the notification that comes up. It then opens a new tab that display the wagtail bakery. To get to Wagtail Cms demo project, click on the url of the newly opened tab then add `/admin/` and enter.	
+To access it, after the Wagtail bakery is live, expand it by clicking on the square box with a diagonal arrow icon or you click on `open browser` in the notification that comes up. It then opens a new tab that display the wagtail bakery. To get to the admin page, click on the url of the newly opened tab then add `/admin/` and enter.	
 
 You can login with `Username : admin` and `Password : changeme`. After you enter that,  you get full access to add pages, create blog posts, etc and enjoy all Wagtail has to offer.
 
