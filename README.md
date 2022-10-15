@@ -10,6 +10,7 @@ Use [wagtail-gitpod](https://github.com/wagtail/wagtail-gitpod) to develop a Wag
 
 1. Click the ``Open in Gitpod`` button.
 2. Relax: a development environment with [Wagtail](https://github.com/wagtail/wagtail) and [Bakery Demo](https://github.com/wagtail/bakerydemo) will be created for you.
+3. To get to the admin login screen, open the wagtail bakery live, click on the url and add `/admin/` at the end. You can login with `Username : admin` and `Password : changeme`.
 
 By default, the wagtail bakery demo is opened live once all the assests and dependencies has finished complilng.
 
@@ -39,11 +40,10 @@ The URL will be https://github.com/USERNAME/wagtail
 
 ### Add remote
 
-In Gitpod, in the menu choose `Terminal` and `New Terminal`. *In case you don't know where that is, the menu is on the top left side of the screen with 3 horizontal lines*.
+In Gitpod, in the menu (usually designed as 3 horizontal lines) choose `Terminal` and `New Terminal`. 
 
 	cd wagtail
 	git remote add USERNAME https://USERNAME:TOKEN@github.com/USERNAME/wagtail.git
-
 
 ### Create a branch and commit your work
 
@@ -58,25 +58,6 @@ In Gitpod, in the menu choose `Terminal` and `New Terminal`. *In case you don't 
     # remote: https://github.com/USERNAME/wagtail/pull/new/BRANCH_NAME
 
 Open the link and follow the instructions.
-
-### Run storybook
-
-If you want to run storybook on gitpod, you either open a new Terminal or you break the current instance of wagtail bakery running by pressing `CTRL` and `C` keys. After that,
-	
-	cd wagtail
-	npm run storybook
-
-Wait for some seconds and viola, the storybook will be opened for you.
-
-
-### Experience Wagtail Cms through Wagtail bakery
-
-
-The Wagtail Cms can be accessed through the wagtail bakery on gitpod. This is to introduce you to developing in wagtail and also allows you to explore the admin/ editorial interface on Wagtail.
-
-To access it, after the Wagtail bakery is live, expand it by clicking on the square box with a diagonal arrow icon or you click on `open browser` in the notification that comes up. It then opens a new tab that display the wagtail bakery. To get to the admin page, click on the url of the newly opened tab then add `/admin/` and enter.	
-
-You can login with `Username : admin` and `Password : changeme`. After you enter that,  you get full access to add pages, create blog posts, etc and enjoy all Wagtail has to offer.
 
 ## Stop and continue
 
