@@ -10,9 +10,7 @@ Use [wagtail-gitpod](https://github.com/wagtail/wagtail-gitpod) to develop a Wag
 
 1. Click the ``Open in Gitpod`` button.
 2. Relax: a development environment with [Wagtail](https://github.com/wagtail/wagtail) and [Bakery Demo](https://github.com/wagtail/bakerydemo) will be created for you.
-3. To get to the admin login screen, click on the URL and add `/admin/` at the end. You can login with username: `admin` and password: `changeme`.
-
-By default, the Wagtail bakery demo is opened live once all the assets and dependencies has finished compiling.
+3. Wait for the 'Simple Browser' panel with the Bakery Demo website to load. Append `/admin/` to the URL. Login with username `admin` and password `changeme`.
 
 More on [contributing and developing](https://docs.wagtail.io/en/stable/contributing/developing.html).
 
