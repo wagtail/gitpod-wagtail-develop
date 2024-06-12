@@ -14,7 +14,7 @@ tasks:
     git clone https://github.com/wagtail/bakerydemo.git
     cd bakerydemo
     cp bakerydemo/settings/local.py.example bakerydemo/settings/local.py
-    echo "DJANGO_SETTINGS_MODULE=bakerydemo.settings.local" > .env
+    cp .env.example .env
     sed -i 's/wagtail>=/# wagtail>=/g' requirements/base.txt
     python -m pip install -r requirements.txt
     python manage.py makemigrations
