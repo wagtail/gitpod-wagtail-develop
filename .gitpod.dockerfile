@@ -4,5 +4,5 @@ ENV PATH=$PYTHONUSERBASE/bin:$PATH
 ENV PIP_USER=yes
 
 RUN sudo apt-get update  \
- && sudo apt-get install -y enchant \
+ && sudo apt-get install -y enchant-2 \
  && sudo rm -rf /var/lib/apt/lists/*
