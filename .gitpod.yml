@@ -7,7 +7,7 @@ tasks:
 - init: |
     git clone https://github.com/wagtail/wagtail.git
     cd wagtail
-    pip install -e '.[testing,docs]' -U
+    pip install -e '.[testing,docs]' -U --config-settings editable_mode=compat
     npm install --no-save
     npm run build
     cd ..
